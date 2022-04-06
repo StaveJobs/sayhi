@@ -1,4 +1,4 @@
-FROM openjdk:8u322-jre
+FROM openjdk:17-jdk
 
 WORKDIR /app
 COPY target/sayhi-*-SNAPSHOT.jar app.jar
